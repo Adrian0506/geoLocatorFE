@@ -1,0 +1,11 @@
+.point-info {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right:42%;
+    width:20rem;
+    height:2rem;
+    top:0%;
+    background-color: aliceblue;    
+    border-radius: 2rem;
+}

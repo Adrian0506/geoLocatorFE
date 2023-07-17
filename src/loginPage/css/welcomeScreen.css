@@ -1,0 +1,81 @@
+.welcome-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:30rem;
+    border-radius: 1rem;
+    background-color: white;
+    top: 9rem;
+    left: 30%;
+    position: relative;
+}
+.button-container {
+    padding-bottom: 10rem;
+    flex-direction: column;
+}
+
+.welcome-container-position {
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: blueviolet;
+    color:white;
+}
+
+a {
+    color: lightskyblue;
+}
+.login-form {
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.sign-up-form {
+    animation: fadein-out 4s forwards;
+    animation-iteration-count: 1;
+}
+
+.input-login { 
+    height:2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: solid 2px;
+}
+
+
+.member-signup {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+
+@keyframes fadein-out {
+    0% {
+      opacity: 0;
+      left: -100px
+    }
+  
+    100% {
+      opacity: 1;
+      left: 0px;
+    }
+  }

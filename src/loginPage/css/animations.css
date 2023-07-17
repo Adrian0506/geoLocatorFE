@@ -1,0 +1,16 @@
+.sign-up-form {
+    animation: fadein-out 4s forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadein-out {
+    0% {
+      opacity: 0;
+      left: -100px
+    }
+  
+    100% {
+      opacity: 1;
+      left: 0px;
+    }
+  }

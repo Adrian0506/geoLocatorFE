@@ -1,0 +1,30 @@
+
+
+.setPoint-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    top: 23%;
+    height: 60%;
+    left: 40vh;
+    border-radius: 2rem;
+    background-color: white;
+    z-index: 1000;
+    animation-iteration-count: 1;
+    align-items: center;
+    animation: drop-down 1s forwards;
+}
+
+@keyframes drop-down {
+    0% {
+        opacity: 0;
+        top: -30rem
+    }
+
+    100% {
+        opacity: 100%;
+        top: 23%;
+    }
+}
